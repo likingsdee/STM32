@@ -1,0 +1,52 @@
+Configuration	LCD12864
+STM32CubeMX 	4.27.0
+Date	03/27/2019
+MCU	STM32F103C8Tx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+SYS	Serial Wire	SYS_JTCK-SWCLK	PA14
+SYS	Serial Wire	SYS_JTMS-SWDIO	PA13
+SYS	SysTick	SYS_VS_Systick	VP_SYS_VS_Systick
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+10	PA0-WKUP	GPIO_Output	
+11	PA1	GPIO_Output	
+12	PA2	GPIO_Output	
+13	PA3	GPIO_Output	
+14	PA4	GPIO_Output	
+15	PA5	GPIO_Output	
+16	PA6	GPIO_Output	
+17	PA7	GPIO_Output	
+34	PA13	SYS_JTMS-SWDIO	
+37	PA14	SYS_JTCK-SWCLK	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : LCD12864
+Project Folder : C:\Users\test\Desktop\11\LCD12864
+Toolchain / IDE : EWARM V7
+Firmware Package Name and Version : STM32Cube FW_F1 V1.6.1
+
+
+Code Generation Settings : 
+STM32Cube Firmware Library Package : Copy all used libraries into the project folder
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : Yes
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+

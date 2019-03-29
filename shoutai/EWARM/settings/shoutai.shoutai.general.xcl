@@ -1,0 +1,15 @@
+"E:\人机\IAR\arm\bin\armproc.dll" 
+
+"E:\人机\IAR\arm\bin\armstlink2.dll" 
+
+"C:\Users\test\Desktop\11\shoutai\EWARM\shoutai\Exe\shoutai.out" 
+
+--plugin "E:\人机\IAR\arm\bin\armbat.dll" 
+
+--device_macro "E:\人机\IAR\arm\config\debugger\ST\STM32F7xx.dmac" 
+
+--flash_loader "E:\人机\IAR\arm\config\flashloader\ST\FlashSTM32F74xxG.board" 
+
+
+
+

@@ -1,0 +1,15 @@
+"E:\人机\IAR\arm\bin\armproc.dll" 
+
+"E:\人机\IAR\arm\bin\armstlink2.dll" 
+
+"C:\Users\test\Desktop\11\ludeng\EWARM\ludeng\Exe\ludeng.out" 
+
+--plugin "E:\人机\IAR\arm\bin\armbat.dll" 
+
+--device_macro "E:\人机\IAR\arm\config\debugger\ST\STM32F1xx_XL.dmac" 
+
+--flash_loader "E:\人机\IAR\arm\config\flashloader\ST\FlashSTM32F10xx8.board" 
+
+
+
+
